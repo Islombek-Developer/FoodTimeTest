@@ -17,7 +17,7 @@ BOT_TOKEN = os.getenv("BOT_TOKEN", "7673962223:AAHAE0HRRwTcFG_lFtkKz_1HkF7ThWJ2_
 ADMIN_ID = int(os.getenv("ADMIN_ID", "6965587290"))
 
 # Kuryerlar ID lari - Environment variable dan olish
-COURIER_IDS_STR = os.getenv("COURIER_IDS", "6168822836")
+COURIER_IDS_STR = os.getenv("COURIER_IDS", "5390177377")
 COURIER_IDS = [int(id.strip()) for id in COURIER_IDS_STR.split(",") if id.strip()]
 
 # Logging
