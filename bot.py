@@ -11,13 +11,13 @@ import sqlite3
 from datetime import datetime
 
 # Bot Token - Environment variable dan olish
-BOT_TOKEN = os.getenv("BOT_TOKEN", "7673962223:AAHAE0HRRwTcFG_lFtkKz_1HkF7ThWJ2_34")
+BOT_TOKEN = os.getenv("BOT_TOKEN", "8466143886:AAEq-Z_s4gyiyliElGh1quud5nI9Fc6S23g")
 
 # Admin ID - Environment variable dan olish
 ADMIN_ID = int(os.getenv("ADMIN_ID", "6965587290"))
 
 # Kuryerlar ID lari - Environment variable dan olish
-COURIER_IDS_STR = os.getenv("COURIER_IDS", "5390177377")
+COURIER_IDS_STR = os.getenv("COURIER_IDS", "8049290856")
 COURIER_IDS = [int(id.strip()) for id in COURIER_IDS_STR.split(",") if id.strip()]
 
 # Logging
